@@ -1,0 +1,11 @@
+pages\LoginPage.class
+pages\HomePage.class
+testcases\RegistrationUserTest.class
+utilities\ExcelReader.class
+testcases\TestParameterizationXML.class
+base\BaseTest.class
+testcases\LoginTest.class
+listeners\ExtentManager.class
+utilities\DataUtil.class
+ExcelReader.class
+listeners\ExtentListeners.class

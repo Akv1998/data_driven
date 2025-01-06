@@ -1,0 +1,7 @@
+INFO    2024-11-19 21:03:48,155 [main] base.BaseTest  - Test execution started
+INFO    2024-11-19 21:03:51,082 [main] base.BaseTest  - Chrome Browser Launch
+INFO    2024-11-19 21:03:52,134 [main] base.BaseTest  - Navigated to https://www.facebook.com/
+INFO    2024-11-19 21:03:52,344 [main] base.BaseTest  - Typing in username_XPATHand entered value as hemant
+INFO    2024-11-19 21:03:52,526 [main] base.BaseTest  - Typing in password_IDand entered value as sdfdsfdsf
+INFO    2024-11-19 21:03:52,646 [main] base.BaseTest  - Clicking on login_NAME
+INFO    2024-11-19 21:03:53,161 [main] base.BaseTest  - Test execution ends
