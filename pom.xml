@@ -96,9 +96,9 @@
             <configuration>
                 <source>17</source>  <!-- Or 8, depending on which Java version you're using -->
                 <target>17</target>  <!-- Or 8 -->
-				<suiteXmlFiles>
-					  <suiteXmlFile>src\test\resources\runner\testng.xml</suiteXmlFile>
-				  </suiteXmlFiles>
+		<suiteXmlFiles>
+		<suiteXmlFile>src\test\resources\runner\testng.xml</suiteXmlFile>
+		</suiteXmlFiles>
             </configuration>
         </plugin>
     </plugins>
