@@ -87,15 +87,18 @@
 		<!-- POI JARS ENDS -->
   </dependencies>
   
-<build>
+ <build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version> <!-- Ensure you're using a compatible version -->
             <configuration>
-                <source>11</source>  <!-- Or 8, depending on which Java version you're using -->
-                <target>11</target>  <!-- Or 8 -->
+                <source>17</source>  <!-- Or 8, depending on which Java version you're using -->
+                <target>17</target>  <!-- Or 8 -->
+				<suiteXmlFiles>
+					  <suiteXmlFile>src\test\resources\runner\testng.xml</suiteXmlFile>
+				  </suiteXmlFiles>
             </configuration>
         </plugin>
     </plugins>
