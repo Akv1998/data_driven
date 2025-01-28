@@ -8,7 +8,7 @@
 
    <test name="Firefox Test">
   <parameter name="url" value="https://www.google.com"></parameter>  
-  <parameter name="browser" value="firefox"></parameter>
+  <parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="testcases.TestParameterizationXML"/>
     </classes>
