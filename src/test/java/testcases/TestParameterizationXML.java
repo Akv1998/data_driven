@@ -33,7 +33,7 @@ public class TestParameterizationXML {
 			cap = new FirefoxOptions();
 		}
 		
-		driver = new RemoteWebDriver(new URL("http://localhost:4444"),cap);
+		driver = new RemoteWebDriver(new URL("http://0.0.0.0:4444"),cap);
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
